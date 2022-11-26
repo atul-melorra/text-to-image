@@ -1,0 +1,12 @@
+{
+    "apps": [
+      {
+        "name": "my-app",
+        "script": "next",
+        "args": "start -p 80",
+        "instances": "max",
+        "exec_mode": "cluster"
+      }
+    ]
+  }
+  
