@@ -46,8 +46,8 @@ export default function Home() {
       <NavBar />
       <div className="container">
         <div className="text-center my-3">
-          <h1>Text to Image Converter</h1>
-          <small>By using artificial intelligence and Machine Learning</small>
+          <h1>Text To Image Visualization</h1>
+          <small>Generate any jewellery design by using Artificial Intelligence and Machine learning  </small>
         </div>
         <Input loading={loading} value={keyWord} generateImage={generateImageID} setValue={setKeyWord} />
         <div className="text-center" style={{ position: "absolute", marginLeft: "41%", marginTop: "5%" }}>
